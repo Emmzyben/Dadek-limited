@@ -195,7 +195,7 @@ article img{
 }
 @media only screen and (max-width: 900px){
     #serviceHero>div{
-        padding: 100px;color: #fff;display: flex;align-items:center;justify-content:center;text-align: center;
+        padding: 100px;color: #fff;display: flex;align-items:unset;justify-content:unset;text-align: center;
     }
     footer{
         flex-direction: column;
