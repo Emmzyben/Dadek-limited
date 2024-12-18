@@ -119,7 +119,16 @@ button{
 #mission img{
     width: 100%;height: 400px;
 }
-
+#mission1{
+    display: flex;flex-direction: row;justify-content: center;align-items: center;
+   
+}
+#mission1>div{
+   margin: 40px;border-radius: 15px;width: 45%;height: auto;
+}
+#mission1 img{
+    width: 100%;height: 400px;
+}
 #m2{
     background-color: #EDECFF;height: 360px;padding: 20px;
 }
@@ -192,6 +201,15 @@ article img{
 }
 #human img{
     width: 100%;
+}
+#form>form>label{
+margin-bottom: 10px;color: #000000;
+}
+#form input{
+    padding: 10px;border: 1px solid black; border-radius: 10px; width: 300px;
+}
+#form button{
+   background-color: #D61313;margin: 20px;padding: 10px;width: 200px;
 }
 @media only screen and (max-width: 900px){
     #serviceHero>div{
@@ -270,6 +288,12 @@ article img{
 #mission>div{
     width:auto ;height: auto;
 }
+#mission1{
+    flex-direction: column-reverse;
+}
+#mission1>div{
+    width:auto ;height: auto;
+}
 #bg{
     display: none;
 }
@@ -283,7 +307,7 @@ article>div{
 width: auto;
 }
 #human>div{
-    width: 25%;margin: 10px;height: 200px;
+    width: 100%;margin: 10px;
 }
 #human{
     justify-content: center;
