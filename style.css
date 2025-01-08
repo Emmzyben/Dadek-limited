@@ -211,7 +211,19 @@ margin-bottom: 10px;color: #000000;
 #form button{
    background-color: #D61313;margin: 20px;padding: 10px;width: 200px;
 }
+#contactUs{
+    display: flex;flex-direction: row;justify-content: space-evenly;
+}
+#WhatsApp{
+    width: 200px;
+}
 @media only screen and (max-width: 900px){
+    #WhatsApp{
+        width: 200px;
+    }
+    #contactUs{
+        flex-direction: column;
+    }
     #serviceHero>div{
         padding: 100px;color: #fff;display: flex;align-items:unset;justify-content:unset;text-align: center;
     }
